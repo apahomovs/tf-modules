@@ -1,4 +1,4 @@
-variable "security_group_id" {
+variable "name" {
   
 }
 
@@ -10,11 +10,10 @@ variable "vpc_id" {
   
 }
 
-variable "security_group_tag" {
+variable "sg_tag" {
   
 }
 
 variable "sg_rules" {
   
 }
-
