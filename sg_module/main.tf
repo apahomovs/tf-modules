@@ -1,10 +1,10 @@
-resource "aws_security_group" "security_group" {
-  name = var.security_group_id
+resource "aws_security_group" "sg" {
+  name        = var.name
   description = var.description
-  vpc_id = var.vpc_id
-  
+  vpc_id      = var.vpc_id
+
   tags = {
-    Name = var.security_group_tag
+    Name = var.sg_tag
   }
 }
 
