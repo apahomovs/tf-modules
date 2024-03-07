@@ -1,10 +1,11 @@
 variable "cidr_block" {
   
 }
+
 variable "vpc_tag" {
   
 }
 
-variable "create_attatch_igw" {
+variable "create_attach_igw" {
   
 }
