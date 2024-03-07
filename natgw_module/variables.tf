@@ -1,7 +1,7 @@
-variable "natgw_tag" {
+variable "subnet_id" {
   
 }
 
-variable "subnet_id" {
+variable "natgw_tag" {
   
 }
